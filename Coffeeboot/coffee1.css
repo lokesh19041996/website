@@ -1,41 +1,118 @@
- #navclr {
+body {
+    background-color: #FFFBF2;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#topbgimg {
+    position: relative;
+    top: 0px;
+}
+
+div#navtop {
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+#navclr {
     font-size: 55px;
     font-style: unset;
     margin-left: 30px;
     font-weight: 700;
 }
-#active{
-    color: #DA9F5B;
- }
 
- ul#navbarclr {
+#active {
+    color: #DA9F5B;
+}
+
+ul#navbarclr {
     font-size: 18px;
     margin-right: 40px;
 }
+
 a.nav-link {
     color: #FFFBF2;
     font-weight: bold;
 
 }
-a.nav-link:hover{
+
+a.nav-link:hover {
     color: #DA9F5B;
 
 }
+
 a.nav-item {
     color: #FFFBF2;
 
 }
+
 li.nav-item {
     margin-left: 20px;
 }
-.h5yel{
+
+.h5yel {
     color: #DA9F5B;
+    font-weight: 500;
+    font-size: 32px;
 
 }
+
 .content1 {
     margin-bottom: 390px;
 }
+
 .content1 {
-    border: 3px solid red;
-    margin-bottom: 390px;
+    margin-bottom: 292px;
+}
+
+.h2cof {
+    font-weight: 700;
+    font-size: 128px;
+}
+
+.h3sin {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.vline {
+    color: #DA9F5B;
+    border-left: 3px solid #DA9F5B;
+    height: 100px;
+    margin-left: 555px;
+}
+h4.h4abut {
+    letter-spacing: 5px;
+    color: #DA9F5B;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+h1.h1abut {
+    font-size: 54px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.h1first {
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #33211D;
+}
+.h5first {
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #33211D;
+}
+.parafirst {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.5;
+}
+.imgcof {
+    margin-top: 0px;
+    margin-left: -28px;
+    height: 100vh;
 }
