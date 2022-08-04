@@ -1,0 +1,41 @@
+/* #navkop {
+    color: red;
+    font-size: 50px;
+    font-style: unset;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+
+
+div#ulnav {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+a.nav-link {
+    color: #FFFBF2;
+    font-weight: bold;
+
+}
+
+li.nav-list {
+    padding: 4px;
+    font-weight: 700;
+}
+a.nav-link:hover{
+        color: #DA9F5B;
+
+}
+
+ #active{
+    color: #DA9F5B;
+ }  */
+
+ #navclr{
+    font-size: 50px;
+    font-style: unset;
+    margin-left: 20px;
+    font-weight: 700;
+ }
