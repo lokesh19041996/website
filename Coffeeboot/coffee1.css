@@ -82,6 +82,7 @@ li.nav-item {
     height: 100px;
     margin-left: 555px;
 }
+
 h4.h4abut {
     letter-spacing: 5px;
     color: #DA9F5B;
@@ -89,30 +90,69 @@ h4.h4abut {
     font-size: 24px;
     font-weight: 500;
 }
+
 h1.h1abut {
     font-size: 54px;
     text-align: center;
     line-height: 1.2;
     font-weight: 700;
 }
+
 .h1first {
     margin-bottom: 16px;
     font-weight: 700;
     color: #33211D;
 }
+
 .h5first {
     font-weight: 400;
     margin-bottom: 16px;
     color: #33211D;
 }
+
 .parafirst {
     font-size: 16px;
     font-weight: 400;
     color: #555;
     line-height: 1.5;
 }
+
 .imgcof {
-    margin-top: 0px;
-    margin-left: -28px;
-    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+i.fa-solid {
+    font-weight: bold;
+    margin-right: 12px;
+    color: #DA9F5B;
+    display: inline-flex;
+}
+
+.servies {
+    margin-top: 48px;
+}
+
+.imgservice {
+    width: 207px;
+}
+
+.servh4 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #33211D;
+}
+
+.service-icon {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background: #DA9F5B;
 }
