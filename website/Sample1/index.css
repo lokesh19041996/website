@@ -68,29 +68,33 @@ section {
 
 #products img {
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
 
 .card {
     width: 252px;
-    height: 360px;
+    height: 310px;
     background: #e5e5e5 !important;
     border: none !important;
-    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3) 
-                inset 4px 4px 10px white;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
     border-radius: 20px !important;
     overflow: hidden;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 84px;
 }
-.card:hover{
-    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.3) 
-                inset -4px -4px -10px white;
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
+        inset -4px -4px 10px white;
+    transition: .2s;
 }
+
 .container.login {
     margin-top: 65px;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -99,6 +103,7 @@ form {
     margin-bottom: 20px;
     line-height: 40px;
 }
+
 button.btn.btn-primary {
     width: 20%;
 }
