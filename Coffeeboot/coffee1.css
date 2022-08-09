@@ -156,3 +156,9 @@ i.fa-solid {
     color: #33211D;
     background: #DA9F5B;
 }
+.offer{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
